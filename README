@@ -1,1 +1,3 @@
-Experimental echo nest plugin for picard
+Experimental echonest plugin for picard.
+
+You need pyechonest for this to work (https://github.com/echonest/pyechonest).
