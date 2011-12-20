@@ -50,7 +50,7 @@ class Ui_EchoNestOptionsPage(object):
 
         self.retranslateUi(EchoNestOptionsPage)
         QtCore.QMetaObject.connectSlotsByName(EchoNestOptionsPage)
-        EchoNestOptionsPage.setTabOrder(self.echonest_upload,self.echonest_artist_title_lookup)
+        #EchoNestOptionsPage.setTabOrder(self.echonest_upload,self.echonest_artist_title_lookup)
 
     def retranslateUi(self, EchoNestOptionsPage):
         self.rename_files.setTitle(_("echonest"))
