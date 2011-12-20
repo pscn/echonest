@@ -1,7 +1,15 @@
 # -*- coding: utf-8 -*-
 
+# Copyright 2011 Peter Schnebel <pschnebel@gmx.de>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License version 2 as
+# published by the Free Software Foundation.
+
+# This plugin is copied from the lastfm plugin by Lukáš Lalinský
+
 PLUGIN_NAME = u'echonest'
-PLUGIN_AUTHOR = u'Peter Schnebel' # Original 'Lukáš Lalinský'
+PLUGIN_AUTHOR = u'Peter Schnebel'
 PLUGIN_DESCRIPTION = u'Lookup bpm, energy and danceability in echo nest.'
 PLUGIN_VERSION = "0.1"
 PLUGIN_API_VERSIONS = ["0.15"] # FIXME:  unsure

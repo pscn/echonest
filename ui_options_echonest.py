@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 
-# Copied and modified from plugin lastfm/ui_options_lastfm.py
+# Copyright 2011 Peter Schnebel <pschnebel@gmx.de>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License version 2 as
+# published by the Free Software Foundation.
+
+# This plugin is copied from the lastfm plugin by Lukáš Lalinský
 
 import sys
 from PyQt4 import QtCore, QtGui
