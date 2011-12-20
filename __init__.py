@@ -63,13 +63,12 @@ def lookup_track(album, metadata, release, track):
             min_diff = len_diff
             match = song
     if match:
-        print match.audio_summary
         metadata['bpm'] = str(match.audio_summary['tempo'])
         metadata['comment:Songs-DB_Energy'] = str(match.audio_summary['energy'])
         metadata['comment:Songs-DB_Danceability'] = str(match.audio_summary['danceability'])
     elif upload:
-        # FIXME
-        print "upload:  but which file?"
+        # FIXME:  how do i get the filename for this track?
+        pass
     req_minus(album)
 
 def process_track(album, metadata, release, track):
