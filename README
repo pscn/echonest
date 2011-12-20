@@ -3,3 +3,5 @@ Experimental echonest plugin for picard
 You need pyechonest for this to work (https://github.com/echonest/pyechonest)
 
 Copy / move __init__.py and ui_options_echonest.py to ~/.config/MusicBrainz/Picard/plugins/echonest/
+
+...oO...
